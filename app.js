@@ -6,7 +6,7 @@ let tentativas = 1;
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:0.5});
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
 /*Função que lê o conteudo de uma variavel, utilizado por padrão em alguns navegadores, para funcionaar comente a linha 7 do arquivo .html
 function exibirTextoNaTela(tag, texto) {
